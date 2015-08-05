@@ -1,0 +1,29 @@
+<head>
+  <title>hello</title>
+</head>
+
+<body>
+  <h1>YO</h1>
+    {{>example}}
+    {{>list}}
+</body>
+
+<template name="example">
+    <div class="panel panel-default">
+        <input class="fileInput" multiple type="file"/>
+        <pre class="log">
+
+        </pre>
+    </div>
+</template>
+<template name="list">
+    <ul>
+        {{#each files}}
+            <li>
+                <p>{{this.name}}</p>
+                <span><a href="{{this.url}}">DL</a></span>
+            </li>
+        {{/each}}
+
+    </ul>
+</template>
