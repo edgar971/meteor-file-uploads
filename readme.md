@@ -1,2 +1,3 @@
 # File Uploader Example
-This is an example project that uploads files and lists them. Built With Meteor.
+Example Meteor project to upload files using the FS Collection package. 
+
